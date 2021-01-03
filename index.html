@@ -6,13 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <!-- add tailwind -->
     <link rel="stylesheet" href="dist/tailwind.css">
     <title>Spotify - Your Top Songs of 2020</title>
 </head>
 <body>
 
-<div class="h-screen flex flex-col">
+<div class="h-screen font-sans flex flex-col">
    
        <!-- my top section -->
     <div class="bg-red-300 flex-1 flex">
@@ -44,7 +45,6 @@
                >
    </button>
    
-
 <div class="pl-96 pr-96  text-xs flex flex-end">
    SIGN UP
 </div>
@@ -56,25 +56,63 @@
 </div>
 
 </div>
+<!-- Song section begins -->
 <div class="bg-gradient-to-r from-green-200 to-green-500  p-4 flex flex-row">
     
-    <div class="bg-green-50 text-pink-300 font-bold p-3">
-        <p class="">
-            <i class="fab fa-spotify"></i>
-        </p>
-        
-        <p class="text-2xl">
-            Your Top<br>
-        </p>
-            <p class="text-2xl">
+    <div class="bg-green-100 text-pink-500 font-sans font-bold ml-3 p-3">
+
+            <p class="text-pink-500">
+                <i class="fab fa-spotify"></i>
+            </p>
+            <p class="text-3xl">
+                Your Top<br>
+            </p>
+            <p class="text-3xl">
                 Songs</p>
-        <br>
-           <p class="text-4xl">
+        
+           <p class="text-5xl">
              2020  
            </p>
-    
-        </div>
     </div>
+    
+    <div class="text-white mt-7 ml-10">
+             <p class="text-xs font-bold">
+                    PLAYLIST
+            </p>
+            <p class="text-8xl font-bold">
+                        Your Top Songs 2020
+            </p>
+            <p class="text-xs">
+                        The songs you loved most this year, all wrapped up.
+            </p>
+            <div class="flex">
+            <p class=" font-bold">
+                       Spotify 
+            </p>
+            <p class="text-white text-xs">
+                <i class="fas fa-circle"></i>
+            </p>
+            <p>
+                    1 like. 100 songs, 6 hr 20 min
+            </p> 
+        </div>               
+    </div>
+
+    </div>
+  <!-- Song section ends
+green play symbol in white with green background nest to white heart three dots  -->  
+<div class="bg-green-500">
+    test
+</div class="text-white flex flex-row">
+    <button class="bg-green-300 text-white rounded-full text-5xl h-20 w-20">
+            <i class="fas fa-caret-right"></i>  
+    </button>
+        <p class="text-white text-5xl font-thin">
+            <i class="far fa-heart"></i>
+        <p class="text-white">
+            <i class="fas fa-ellipsis-h"></i>
+        </p>
+</div>
 <!-- Header section ends-->
         </div>
         <!-- //END -->
