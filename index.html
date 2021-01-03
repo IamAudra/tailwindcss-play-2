@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w==" crossorigin="anonymous" />
     <!-- add tailwind -->
     <link rel="stylesheet" href="dist/tailwind.css">
     <title>Spotify - Your Top Songs of 2020</title>
@@ -12,10 +13,13 @@
 <body>
 
 <div class="h-screen flex flex-col">
-    <!-- my top section -->
+   
+       <!-- my top section -->
     <div class="bg-red-300 flex-1 flex">
+        
          <!-- sidebar -->
-        <div class="bg-black text-white w-44 p-6 flex flex-col justify-between">
+         
+        <div class="bg-black text-white w-44 p-6 flex flex-col h-screen justify-between">
             <div class="border-b-2 border-gray-50 text-gray-100">
                 <!-- logo -->
                 MENU
@@ -29,12 +33,69 @@
         <!-- // END -->
 
         <!-- main content -->
-        <div class="bg-blue-300 flex-1">
-            main content
+        <div class="">
+        <!-- Header begins -->
+<div class="bg-green-700 flex p-2 w-screen flex-1 flex-row">
+    <button class="bg-green-900 ml-5 rounded-full h-7 w-7 flex items-center justify-center text-2xl text-gray-400">
+                   <
+   </button>
+   
+   <button class="bg-green-900 ml- rounded-full h-7 w-7 flex p-1 items-center justify-center text-2xl text-gray-400">
+               >
+   </button>
+   
+
+<div class="pl-96 pr-96  text-xs flex flex-end">
+   SIGN UP
+</div>
+
+<div class="justify-content flex-end">
+   <button class=" rounded-full py-3 px-6 bg-white text-black text-xs">
+    LOG IN
+   </button>
+</div>
+
+</div>
+<div class="bg-gradient-to-r from-green-200 to-green-500  p-4 flex flex-row">
+    
+    <div class="bg-green-50 text-pink-300 font-bold p-3">
+        <p class="">
+            <i class="fab fa-spotify"></i>
+        </p>
+        
+        <p class="text-2xl">
+            Your Top<br>
+        </p>
+            <p class="text-2xl">
+                Songs</p>
+        <br>
+           <p class="text-4xl">
+             2020  
+           </p>
+    
+        </div>
+    </div>
+<!-- Header section ends-->
         </div>
         <!-- //END -->
     </div>
     <!--//END top section-->
+
+ <!--//Top Song section begins -->
+
+
+<div class="bg-green-50 h-50 w-50">
+<p>
+    <i class="fab fa-spotify"></i>
+</p>
+
+<p class="text-pink-300">
+    Your Top<br>
+    Songs<br>
+    2020
+</p>>
+</div>
+<!--//Top Song section ends -->
 
     <!-- bottom section -->
     <div class="bg-gray-600 flex justify-around h-24">
